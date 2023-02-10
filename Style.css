@@ -129,3 +129,8 @@
   font-size: 15px;
   padding: 0px 10px 0px 15px;
 }
+.chiliImage {
+  position: relative;
+  top: 200px;
+  left: -90px;
+}

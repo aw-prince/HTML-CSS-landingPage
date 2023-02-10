@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+/* -------------------- navbar-------------------- */
+.navbar {
+  height: 75px;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 70px;
+  color: #fefefe;
+}
+.menu-btn i {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0px 10px 0px 0px;
+  display: none;
+  color: #000;
+}
+#click {
+  display: none;
+}
+.topNav {
+  display: flex;
+  list-style: none;
+}
+
+.navText {
+  color: #000000;
+  margin: 0 40px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.navText:hover {
+  /* hover effect here underline */
+}
+
+@media (max-width: 900px) {
+  .topNav {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #ffffff;
+    height: 30vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #click:checked ~ .topNav {
+    left: 0%;
+    transition: all 0.5s linear;
+  }
+  .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+    font-size: 25px;
+  }
+  .navText {
+    margin: 40px 0;
+    font-size: 20px;
+    display: block;
+  }
+  .navbar {
+    padding: 0px 0px 0px 30px;
+  }
+}
+/* -------------------- header-------------------- */
+.wrapSection {
+  background: transparent linear-gradient(180deg, #def0d8 0%, #fafafa 100%) 0%
+    0% no-repeat padding-box;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+.wrpHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.greenCircle {
+  position: relative;
+  top: -195px;
+  left: 200px;
+  width: 922px;
+  height: 902px;
+  border-radius: 50%;
+  background: #387546;
+}
+.circleImage {
+  position: relative;
+  top: 199px;
+  left: 50px;
+}
+.foodDiv {
+  padding-left: 50px;
+  margin-top: -300px;
+  width: 600px;
+}
+.foodMain {
+  font-size: 64px;
+  font-weight: 900;
+}
+.foodText {
+  font-weight: 200;
+  width: 430px;
+  font-size: 20px;
+  margin: 20px 0px 20px 0px;
+}
+.foodBtn {
+  background: #f19a33;
+  color: #ffffff;
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.arrowIcon {
+  font-size: 15px;
+  padding: 0px 10px 0px 15px;
+}

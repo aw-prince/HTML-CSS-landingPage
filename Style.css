@@ -92,13 +92,13 @@
   top: -160px;
   left: 210px;
   width: 922px;
-  height: 880px;
+  height: 900px;
   border-radius: 50%;
   background: #387546 0% 0% no-repeat padding-box;
 }
 .circleImage {
   position: relative;
-  top: 180px;
+  top: 185px;
   left: 50px;
 }
 .foodDiv {
@@ -135,10 +135,45 @@
 }
 .greenCircle2 {
   position: relative;
-  top: -130px;
-  left: -250px;
-  width: 580px;
-  height: 560px;
+  top: -140px;
+  left: -180px;
+  width: 680px;
+  height: 650px;
   border-radius: 50%;
   background: #598463 0% 0% no-repeat padding-box;
+}
+
+.circleImage2 {
+  position: relative;
+  top: 50px;
+  left: 255px;
+}
+.foodArea2 {
+  margin-top: -260px;
+  margin-left: 170px;
+}
+.about {
+  color: #f19a33;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0px 0px 10px 0px;
+}
+.aboutHeader {
+  font-size: 56px;
+  padding: 0px 0px 20px 0px;
+}
+.aboutBtn {
+  background: #387546;
+  color: #ffffff;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.aboutText {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0px 150px 20px 0px;
+  line-height: 30px;
 }

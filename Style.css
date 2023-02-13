@@ -80,6 +80,7 @@
     no-repeat;
   height: 100%;
   width: 100%;
+  color: #383833;
   overflow: hidden;
 }
 .wrpHeader {
@@ -176,4 +177,51 @@
   font-weight: 200;
   margin: 0px 150px 20px 0px;
   line-height: 30px;
+}
+
+.exploreFood {
+  text-align: center;
+  margin-top: 10px;
+}
+.menu {
+  color: #f19a33;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px 0px 10px 25px;
+}
+
+.menuHead {
+  font-size: 56px;
+  padding: 0px 0px 10px 0px;
+}
+.menuText {
+  font-size: 24px;
+  font-weight: 200;
+  padding: 0px 0px 10px 30px;
+}
+
+.exploreImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px 0px 50px;
+}
+.imageContainer {
+  height: 460px;
+  width: 392px;
+  margin: 0px 22px 20px 0px;
+  box-shadow: 0px 10px 25px rgb(0 0 0 / 0.2);
+  border-radius: 1px;
+}
+
+.imageContainer1Text {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 15px;
+}
+
+.cardText {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0px 0px 15px 0px;
 }

@@ -202,14 +202,13 @@
 
 .exploreImage {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin: 20px 0px 0px 50px;
+  margin: 20px 0px 10px 40px;
 }
 .imageContainer {
   height: 460px;
   width: 392px;
-  margin: 0px 22px 20px 0px;
+  margin: 0px 22px 50px 0px;
   box-shadow: 0px 10px 25px rgb(0 0 0 / 0.2);
   border-radius: 1px;
 }
@@ -224,4 +223,9 @@
   font-size: 22px;
   font-weight: bold;
   padding: 0px 0px 15px 0px;
+}
+.galleryText {
+  font-size: 38px;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
 }

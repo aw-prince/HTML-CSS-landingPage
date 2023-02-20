@@ -227,5 +227,35 @@
 .galleryText {
   font-size: 38px;
   text-align: center;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 20px 0px;
+}
+.galleryContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.galleryWrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.galleryWrap img {
+  width: 396px;
+  height: 265px;
+  margin: 10px;
+  border-radius: 1px;
+}
+
+.cardWrap {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 50px 50px 50px;
+}
+
+.card {
+  width: 347px;
+  height: 187px;
+  box-shadow: 0px 17px 50px #00000029;
+  border-radius: 80px;
+  text-align: center;
 }

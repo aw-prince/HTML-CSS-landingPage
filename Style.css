@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 .navText:hover {
-  /* hover effect here underline */
+  /* hover effect here underline with effect*/
 }
 
 @media (max-width: 900px) {
